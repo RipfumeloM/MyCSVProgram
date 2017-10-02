@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSVPersonParser.cs" />
+    <Compile Include="IElement.cs" />
+    <Compile Include="IPersonParser.cs" />
+    <Compile Include="IVisitor.cs" />
+    <Compile Include="NameAndFrequency.cs" />
+    <Compile Include="PersonNameAndFrequencyWriter.cs" />
+    <Compile Include="PersonAddressWriter.cs" />
+    <Compile Include="PersonSortOnAddress.cs" />
+    <Compile Include="PersonSortOnFreqAndName.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
